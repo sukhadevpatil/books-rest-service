@@ -3,7 +3,7 @@
 >git remote add origin https://github.com/sukhadevpatil/books-rest-service
 
 #validate remote link
->got remote -v
+>git remote -v
 
 #add all file to git
 >git add .
