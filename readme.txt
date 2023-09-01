@@ -18,4 +18,3 @@
 #push code to master branch
 >git push --set-upstream origin master
 
-#commit files
