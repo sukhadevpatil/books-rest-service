@@ -9,8 +9,8 @@
 >git add .
 
 #if any error of email then set the email & name
->git config --global user.email "you@example.com"
->git config --global user.name "Your Name"
+>git config --global user.email "sukhadev.patil@gmail.com"
+>git config --global user.name "Sukhdev Patil"
 
 #commit code
 >git commit -m 'base version of service code'
