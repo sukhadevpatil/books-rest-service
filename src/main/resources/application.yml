@@ -2,6 +2,13 @@ server:
   port: 8081
 
 spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.H2Dialect
   datasource:
     url: jdbc:h2:file:./data/filedb
     driver-class-name: org.h2.Driver
@@ -14,14 +21,6 @@ spring:
       enabled: true
       settings:
         web-allow-others: true
-  jpa:
-    hibernate:
-      ddl-auto: update
-    show-sql: true
-    properties:
-      hibernate:
-        dialect: org.hibernate.dialect.H2Dialect
-
 
 springdoc:
   api-docs:
